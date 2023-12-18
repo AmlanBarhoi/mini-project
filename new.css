@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width:400px;
+    margin:auto;
+    position:relative;
+    top:170px;
+    padding:10px;
+    box-shadow: 0 0 2px  rgb(166, 164, 164);
+}
+
+button {
+    border: none;
+    outline: none;
+    padding:10px 15px;
+    font-size: 15px;
+    box-shadow: 0 0 1px 1px rgb(191, 189, 189);
+    color: black;
+    font-weight: bold;
+    margin-left:20px;
+    
+}
+
+.btn-collect {
+    width:330px;
+    margin:auto;
+}
+
+#playerText {
+    color: red;
+    font-size: 20px;
+}
+#computerText {
+    color: blue;
+    font-size: 20px;
+    margin-top: 23px;
+}
+#resultText {
+    color: green;
+    font-size: 20px;
+    font-weight:bold;
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
